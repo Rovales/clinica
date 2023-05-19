@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Noto Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0c0ce94d;
+}
+
+
+
+.container{
+  width: 80%;
+  height: 80vh;
+  display: flex;
+}
+
+.direita-login{
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+
+}
+.texto{
+  display: grid;
+  text-align: justify;
+}
+
+.linha{
+  width: 100%;
+  height: 1px;
+  border: 1px solid  #3b323849;
+  margin-bottom: 10px;
+}
+
+.direita-login>h1{
+  padding-bottom: 50px;
+  text-transform: uppercase;
+}
+.card-login{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  flex-direction: column;
+ 
+}
+
+.textfild >input:hover{
+  background-color: #eeeeee75
+  }
+  
+
+.textfild >input{
+  margin-top: 1rem;
+  width: 27vw;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  color: #0f0f0fde;
+  font-size: 12pt;
+  box-shadow: 1px 1px 6px #0000001c;
+  outline: none;
+  box-sizing: border-box;
+  
+}
+
+.textfild >input:focus-visible {
+  outline: 1px solid #6c63ff;
+}
+
+.btn-enviar{
+  width: 100%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #f0ffffcb;
+  background: #6c63ff;
+  cursor: pointer;
+  box-shadow: 0px 10px 20px -12px #3b3238;
+}
+
+.btn-enviar:hover{
+  background: #5b52fdec;
+  color: #fff;
+}
+
+.card-login >h2{
+  color: #0d0d0e;
+  font-weight: 800;
+  margin: 1rem;
+}
+
+.card-login> a{
+  text-decoration: none;
+  color: #0d0d0e;
+}
+
+.card-login> a:hover{
+  text-decoration: underline;
+  color: #4545f0;
+}
